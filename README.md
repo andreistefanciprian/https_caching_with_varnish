@@ -19,7 +19,7 @@ VARNISH_LISTEN_PORT=6081
 ## Setup Description
 
 ```
-Client --https:8443--> NGINX Proxy 1 --http:6081--> Varnish --http:8888--> NGINX Proxy 2 --https:9443--> Website
+Client --https:8443--> NGINX Proxy 1 --http:6081--> Varnish --http:80--> NGINX Proxy 2 --https:9443--> Website
 ```
 
 ## Prerequisites
